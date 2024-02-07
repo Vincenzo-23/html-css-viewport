@@ -9,6 +9,7 @@
 
 img {
 	max-width: 100%;
+    
 }
 
 a {
@@ -25,6 +26,13 @@ ol {
 
 
 /* LAYOUT */
+
+.webapp{
+    height: calc(100vh - 50px);
+    color: white;
+    display: flex;
+}
+
 
 
 /* Header */
@@ -62,14 +70,9 @@ ol {
 }
 
 
-.webapp{
-    height: calc(100vh - 50px);
-    color: white;
-    display: flex;
-}
 
 
-
+/* Main */
 
 
 
@@ -81,16 +84,10 @@ ol {
 
 
 
-
-
-
-
-
-
 /* Main logo section */
 
 .logo-section{
-    background-color: rgb(70, 106, 192);
+    background-color: rgb(35, 37, 43);
     display: flex;
     justify-content: flex-end;
     height: 50px;
@@ -112,12 +109,50 @@ ol {
 
 
 
-
+/* Content section row songs*/
 
 
 .content-section{
     height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
 }
+
+
+.content-section-row-songs h1{
+    padding: 30px;
+}
+
+
+.container-titles div img{
+    width: 150px;
+}
+
+.container-titles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.container-titles div{
+    width: 400px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    
+}
+
+
+.container-titles div figcaption{
+    padding: 10px 0;
+}
+
+
+
+
+/* Content section row album */
+
+
 
 
 
