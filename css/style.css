@@ -63,7 +63,7 @@ ol {
 
 
 .webapp{
-    height: 95vh;
+    height: calc(100vh - 50px);
     color: white;
     display: flex;
 }
@@ -93,7 +93,7 @@ ol {
     background-color: rgb(70, 106, 192);
     display: flex;
     justify-content: flex-end;
-    height: 5%;
+    height: 50px;
     align-items: center;
 }
 
@@ -116,7 +116,7 @@ ol {
 
 
 .content-section{
-    height: 95%;
+    height: calc(100% - 50px);
 }
 
 
@@ -124,7 +124,7 @@ ol {
 
 
 footer{
-    height: 5vh;
+    height: 50px;
     width: 100%;
 }
 
