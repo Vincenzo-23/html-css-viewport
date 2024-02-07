@@ -153,8 +153,33 @@ ol {
 /* Content section row album */
 
 
+.content-section-row-album h1{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.content-section-row-album .list{
+    list-style: disc;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.content-section-row-album p{
+    padding: 0 30px;
+    
+}
 
 
+.content-section-row-album{
+    margin-top: 50px;
+}
+
+
+
+.content-section{
+    background-color: rgb(20, 25, 35);
+    color: white;
+}
 
 
 /* Footer */
@@ -182,17 +207,4 @@ footer{
 
 
 
-/* DEBUG */
-
-
-/* .debug header{
-    background-color: black;
-    
-} */
-
-.debug main{
-    background-color: rgb(20, 25, 35);
-    color: white;
-
-}
 
