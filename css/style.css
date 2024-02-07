@@ -21,3 +21,62 @@ ul,
 ol {
 	list-style: none;
 }
+
+
+
+/* LAYOUT */
+
+
+.webapp{
+    height: 95vh;
+    color: white;
+    display: flex;
+}
+
+.header-column{
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-column{
+    flex-grow: 1;
+}
+
+
+
+
+footer{
+    height: 5vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+
+.debug header{
+    background-color: black;
+    
+}
+
+.debug main{
+    background-color: #dedede;
+    color: black;
+
+}
+
+footer{
+    background-color: orange;
+   
+}
